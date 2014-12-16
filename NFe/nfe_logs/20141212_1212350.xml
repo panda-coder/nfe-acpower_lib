@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<DataBaseData><consults><Item id="0"><init>2014-12-12 13:12:35</init><time_spent>169.46910309792 seconds</time_spent><finish>2014-12-12 13:12:38</finish><query_executed>select xml from t_xml_nfesyslog where id_nfesyslog=736056</query_executed></Item></consults><execution/></DataBaseData>

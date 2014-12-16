@@ -1,0 +1,51 @@
+<?php
+	/***********************
+		DATABASE VARS
+	***********************/
+	
+	$STR_CONN = '[STR_CONN]';
+	$USER_CONN = '[USER_CONN]';
+	$PASS_CONN = '[PASS_CONN]';
+	
+	
+	/***********************
+		FIM DATABASE VARS
+	***********************/
+	
+	
+	/*************************
+		NFE VARS
+	*************************/
+	$CNPJ_EMITENTE = "[CNPJ_EMITENTE]"; // INFOCO 06239190000180 - Gestao 08564065000171
+	$SERVICE_PHP_FILE = "[SERVICE_PHP_FILE]";
+	$SERVICE_PHP_PRINT = "[SERVICE_PHP_PRINT]";
+	$SERVICE_PHP_INTERNAL = "[SERVICE_PHP_INTERNAL]";
+	$SERVICE_PHP_PATH = '[SERVICE_PHP_PATH]';
+	$PRINTER_PROGRAM_PATH = '[PRINTER_PROGRAM_PATH]';
+	$PRINTER_PROGRAM_FILE = '[PRINTER_PROGRAM_FILE]';
+	$PRINTER_WATCH = '[PRINTER_WATCH]';
+	$HTTP_SERVICE = "[HTTP_SERVICE]";
+	$HTTP_SERVICE_NEW = "[HTTP_SERVICE_NEW]";
+	$HTTP_INTERNAL_SERVICE = "[HTTP_INTERNAL_SERVICE]";
+	$HTTP_EMAIL_SERVICE = "[HTTP_EMAIL_SERVICE]";
+	$HTTP_PRINT_SERVICE = "[HTTP_PRINT_SERVICE]";
+	
+	
+	$PDFTOPS_PROGRAM = '[PDFTOPS_PROGRAM]';
+	$FOXIT_PROGRAM = '[FOXIT_PROGRAM]';
+	
+	
+	
+	$API_DIR = dirname( dirname( __FILE__ ) ) . DIRECTORY_SEPARATOR . 'libs';
+		
+	//Não alterar ****************************************************************************************
+	$PDFTOPS_PARAM = "\"$PDFTOPS_PROGRAM\" -paper A4 ";
+	
+	
+	/*************************
+		FIM NFE VARS
+	*************************/
+	
+	
+
+?>

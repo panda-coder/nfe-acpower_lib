@@ -1,0 +1,63 @@
+http://127.0.0.1:97/nfephp310/acpower_lib/NFePID: 360
+Running process... 35141206239190000180550000016924031010865220-nfe.xml... ID: 4... 360
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 'ENVIADA PARA SEFAZ', CURRENT_TIMESTAMP)' at line 1
+    [3] => INSERT INTO t_andamento_nfesyslog(id_nfesyslog, andamento_nfesyslog, data_hora) VALUES(, 'ENVIADA PARA SEFAZ', CURRENT_TIMESTAMP)
+)
+1Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    [3] => update t_nfesyslog set situacao='P' where id_nfesyslog=
+)
+1Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    [3] => DELETE FROM t_xml_nfesyslog WHERE id_nfesyslog=
+)
+1Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '<?xml version="1.0" encoding="UTF-8"?>
+<NFe xmlns="http://www.portalfiscal.inf' at line 1
+    [3] => INSERT INTO t_xml_nfesyslog(id_nfesyslog, xml) VALUES(, '<?xml version="1.0" encoding="UTF-8"?>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe35141206239190000180550000016924031010865220" versao="3.10"><ide><cUF>35</cUF><cNF>01086522</cNF><natOp>VENDA EXTERNA</natOp><indPag>1</indPag><mod>55</mod><serie>0</serie><nNF>1692403</nNF><dhEmi>2014-12-12T12:38:53-02:00</dhEmi><dhSaiEnt>2014-12-15T00:00:00-02:00</dhSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>3505708</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>0</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>0</indFinal><indPres>9</indPres><procEmi>0</procEmi><verProc>1.0.0</verProc></ide><emit><CNPJ>06239190000180</CNPJ><xNome>INFOCO DISTRIBUIDORA E LOGISTICA LTDA</xNome><xFant>INFOCO DISTRIBUIDORA E LOGISTI</xFant><enderEmit><xLgr>AVENIDA PREFEITO JOAO VILALLOBO QUERO</xLgr><nro>1650</nro><xBairro>JARDIM BELVAL</xBairro><cMun>3505708</cMun><xMun>BARUERI</xMun><UF>SP</UF><CEP>06422122</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>1133764999</fone></enderEmit><IE>206219283114</IE><CRT>3</CRT></emit><dest><CNPJ>99999999000191</CNPJ><xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome><enderDest><xLgr>AV. RODRIGUES MONTEMOR</xLgr><nro>253</nro><xBairro>CID. DOMITILA</xBairro><cMun>3550308</cMun><xMun>SAO PAULO</xMun><UF>SP</UF><CEP>04387000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>1155637640</fone></enderDest><indIEDest>9</indIEDest></dest><det nItem="1"><prod><cProd>10104220</cProd><cEAN>7896423420654</cEAN><xProd>MeM CHOCO AO LEITE 52GR SEM PRECO</xProd><NCM>18069000</NCM><CFOP>5104</CFOP><uCom>DP</uCom><qCom>1.0000</qCom><vUnCom>27.64</vUnCom><vProd>27.64</vProd><cEANTrib>7896423420654</cEANTrib><uTrib>DP</uTrib><qTrib>1.0000</qTrib><vUnTrib>27.6400</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS60><orig>0</orig><CST>60</CST><vBCSTRet>0.00</vBCSTRet><vICMSSTRet>0.00</vICMSSTRet></ICMS60></ICMS><PIS><PISAliq><CST>01</CST><vBC>27.64</vBC><pPIS>1.65</pPIS><vPIS>0.46</vPIS></PISAliq></PIS><COFINS><COFINSAliq><CST>01</CST><vBC>27.64</vBC><pCOFINS>7.60</pCOFINS><vCOFINS>2.10</vCOFINS></COFINSAliq></COFINS></imposto></det><total><ICMSTot><vBC>0.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>27.64</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.46</vPIS><vCOFINS>2.10</vCOFINS><vOutro>0.00</vOutro><vNF>27.64</vNF></ICMSTot></total><transp><modFrete>0</modFrete><transporta><CPF>34746345856</CPF><xNome>WILLIAM PEREIRA DAMASCENO</xNome><xEnder>DOS DOMINICANOS,1 BL. 75 AP. 03 JARDIM SANTO ANDR</xEnder><xMun>SANTO ANDR</xMun><UF>SP</UF></transporta><vol><qVol>1</qVol><pesoL>0.001</pesoL><pesoB>0.001</pesoB></vol></transp><cobr><fat><nFat>1692403</nFat><vOrig>27.64</vOrig><vLiq>27.64</vLiq></fat><dup><nDup>1692403-1</nDup><dVenc>2014-12-29</dVenc><vDup>27.64</vDup></dup></cobr><infAdic><infCpl>Pedido de venda: 1131389 -- DTSS02 -- -- Forma Pagamento: BOLETO -- Condicao Pagamento: 14 DIAS -- O vendedor nao esta autorizado a receber esta fatura - Imposto recolhido por substituicao nos termos do ART. 313 RICMS</infCpl></infAdic></infNFe><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe35141206239190000180550000016924031010865220"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>4xIZ5PyMxqotPL5nAw52VwcoMcY=</DigestValue></Reference></SignedInfo><SignatureValue>N2o47VfkM6UeQ5AI3yndO0bTO1Dv29Hd/4B3N4aWObBDLVhnADxjYM8ts8RBJw4jjHoI3821OaiE/ztykYCi2KQtYvX3KHo3FjFza/KJeFeL/tD46C3OuGhaQvLVfVMFoNwpbzfLWMk4pLpdtEY/+I0EIFyzNoa9GrJXTv3obnxlMNpKu7ZPjjTxKTmCzvGiZBB9R2CvItQyZLSYQPn2CVdGb+X48hrh6xhZvYBawjBIVtn6xsr2RQ9bY4j7VsFplbtURYrjjfdp0TDr5kYD4li1J8rP2ZCXifHuBAlcskU13iIBlDB/zubf9DBPF/BxW5l5TOwH0GYJEc5q/5bgnA==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></NFe>
+')
+)
+135141206239190000180550000016924031010865220 esperando
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 'CONSULTA REALIZADA', CURRENT_TIMESTAMP)' at line 1
+    [3] => INSERT INTO t_andamento_nfesyslog(id_nfesyslog, andamento_nfesyslog, data_hora) VALUES(, 'CONSULTA REALIZADA', CURRENT_TIMESTAMP)
+)
+135141206239190000180550000016924031010865220 protocolo veio...
+Array
+(
+    [bStat] => 1
+    [verAplic] => SP_NFE_PL_008d
+    [cStat] => 105
+    [xMotivo] => Lote em processamento
+    [cUF] => 35
+    [chNFe] => 
+    [aProt] => Array
+        (
+        )
+
+    [aCanc] => 
+    [xmlRetorno] => <nfeRetAutorizacaoLoteResult xmlns="http://www.portalfiscal.inf.br/nfe/wsdl/NfeRetAutorizacao"><retConsReciNFe xmlns="http://www.portalfiscal.inf.br/nfe" versao="3.10"><tpAmb>2</tpAmb><verAplic>SP_NFE_PL_008d</verAplic><nRec>351000085933720</nRec><cStat>105</cStat><xMotivo>Lote em processamento</xMotivo><cUF>35</cUF><dhRecbto>2014-12-12T13:23:06-02:00</dhRecbto></retConsReciNFe></nfeRetAutorizacaoLoteResult>
+    [nRec] => 351000085933720
+    [tpAmb] => 2
+    [cMsg] => 
+    [xMsg] => 
+)
+Fim de um ciclo...
+Executado 35141206239190000180550000016924031010865220-nfe.xml

@@ -1,0 +1,1 @@
+php.exe "C:\Arquivos de programas\NetMake\v7\wwwroot\nfephp\acpower_lib\NFe\action_bat.php" off

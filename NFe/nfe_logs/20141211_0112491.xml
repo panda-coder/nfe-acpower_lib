@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<DataBaseData><consults><Item id="0"><init>2014-12-11 14:12:49</init><time_spent>11.146055936813 seconds</time_spent><finish>2014-12-11 14:12:49</finish><query_executed>SELECT num_processo, tempo_max FROM t_parametros WHERE id_empresa=(SELECT id_empresa FROM t_empresas WHERE cnpj='06239190000180')</query_executed></Item></consults><execution/></DataBaseData>

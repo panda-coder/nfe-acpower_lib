@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<DataBaseData><consults><Item id="0"><init>2014-11-13 17:11:53</init><time_spent>5.7537908554077 seconds</time_spent><finish>2014-11-13 17:11:53</finish><query_executed>SELECT id_nfesyslog FROM t_nfesyslog WHERE cpfcnpj='06239190000180' and ifnull(email_enviado,'N')='N' and situacao='A' and protocolo is not null order by 1 desc limit 0,50</query_executed></Item></consults><execution/></DataBaseData>

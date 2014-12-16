@@ -1,0 +1,25 @@
+http://127.0.0.1:97/nfephp310/acpower_lib/NFePID: 1224
+Running process... 35141106239190000180550000016388801009965782-nfe.xml... ID: 7... 1224
+35141106239190000180550000016388801009965782 esperando
+35141106239190000180550000016388801009965782 protocolo veio...
+Array
+(
+    [bStat] => 1
+    [verAplic] => SP_NFE_PL_008d
+    [cStat] => 105
+    [xMotivo] => Lote em processamento
+    [cUF] => 35
+    [chNFe] => 
+    [aProt] => Array
+        (
+        )
+
+    [aCanc] => 
+    [xmlRetorno] => <nfeRetAutorizacaoLoteResult xmlns="http://www.portalfiscal.inf.br/nfe/wsdl/NfeRetAutorizacao"><retConsReciNFe xmlns="http://www.portalfiscal.inf.br/nfe" versao="3.10"><tpAmb>2</tpAmb><verAplic>SP_NFE_PL_008d</verAplic><nRec>351000085239588</nRec><cStat>105</cStat><xMotivo>Lote em processamento</xMotivo><cUF>35</cUF><dhRecbto>2014-11-13T15:54:29-02:00</dhRecbto></retConsReciNFe></nfeRetAutorizacaoLoteResult>
+    [nRec] => 351000085239588
+    [tpAmb] => 2
+    [cMsg] => 
+    [xMsg] => 
+)
+Fim de um ciclo...
+Executado 35141106239190000180550000016388801009965782-nfe.xml
